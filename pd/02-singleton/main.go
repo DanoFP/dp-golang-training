@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/DanoFP/dp-golang-training/singleton"
+	"github.com/DanoFP/dp-golang-training//pd/02-singleton/singleton"
 	"github.com/DanoFP/dp-golang-training/web-service/client_one"
 	"github.com/DanoFP/dp-golang-training/web-service/client_two"
 )

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/DanoFP/dp-golang-training/factory 01/factory"
+	"github.com/DanoFP/dp-golang-training/pd/01-factory/factory"
 )
 
 //DB Connection

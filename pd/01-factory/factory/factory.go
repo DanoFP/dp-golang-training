@@ -1,6 +1,6 @@
 package factory
 
-import "github.com/DanoFP/dp-golang-training/connection"
+import "github.com/DanoFP/dp-golang-training/pd/connection"
 
 func Factory(t int) connection.DBConnection {
 	switch t {
