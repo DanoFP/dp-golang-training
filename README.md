@@ -2,4 +2,4 @@
 Traning golang
 
 1. Local Web Server
-2. Singleton Design Patterns
+2. Singleton Design Pattern
