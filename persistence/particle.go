@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"../dt"
+	"github.com/DanoFP/dp-golang-training/dt"
 	"github.com/gorilla/mux"
 )
 

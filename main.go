@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"./client_one"
-	"./client_two"
-	"./singleton"
+	"github.com/DanoFP/dp-golang-training/client_one"
+	"github.com/DanoFP/dp-golang-training/client_two"
+	"github.com/DanoFP/dp-golang-training/singleton"
 )
 
 //Local Server
