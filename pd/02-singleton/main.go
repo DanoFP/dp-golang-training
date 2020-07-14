@@ -1,12 +1,12 @@
-package singleton
+package main
 
 import (
 	"fmt"
 	"sync"
 
-	"github.com/DanoFP/dp-golang-training//pd/02-singleton/singleton"
-	"github.com/DanoFP/dp-golang-training/web-service/client_one"
-	"github.com/DanoFP/dp-golang-training/web-service/client_two"
+	"github.com/DanoFP/dp-golang-training/pd/02-singleton/client_one"
+	"github.com/DanoFP/dp-golang-training/pd/02-singleton/client_two"
+	"github.com/DanoFP/dp-golang-training/pd/02-singleton/singleton"
 )
 
 //Singleton test

@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/DanoFP/dp-golang-training/persistence"
+	"github.com/DanoFP/dp-golang-training/web-service/persistence"
 	"github.com/gorilla/mux"
 )
 
