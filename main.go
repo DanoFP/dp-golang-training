@@ -30,5 +30,5 @@ package main
 } */
 //DB Connection
 func main() {
-	dbconnection.GetNow()
+	connection.GetNow()
 }
