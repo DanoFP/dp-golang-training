@@ -8,6 +8,7 @@ var (
 )
 
 func GetInstance() *person {
+	//once.Do once by Package
 	once.Do(func() {
 		p = &person{}
 	})

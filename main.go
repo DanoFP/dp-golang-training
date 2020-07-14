@@ -1,14 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"sync"
-
-	"github.com/DanoFP/dp-golang-training/client_one"
-	"github.com/DanoFP/dp-golang-training/client_two"
-	"github.com/DanoFP/dp-golang-training/singleton"
-)
-
 //Local Server
 /* func main() {
 	dt.Articles = []dt.Article{
@@ -19,7 +10,7 @@ import (
 } */
 
 //Singleton test
-func main() {
+/* func main() {
 	wg := sync.WaitGroup{}
 	wg.Add(200)
 	for i := 0; i < 100; i++ {
@@ -36,4 +27,8 @@ func main() {
 	p := singleton.GetInstance()
 	age := p.GetAge()
 	fmt.Println(age)
+} */
+//DB Connection
+func main() {
+	dbconnection.GetNow()
 }
